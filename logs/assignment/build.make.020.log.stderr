@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[Kvirtual bool CS3891Context::solve(planning_interface::MotionPlanResponse&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:237:52:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[K;[m[K' token
+   for(auto a: robotmodel->getJointModelGroupNames()[01;31m[K;[m[K){
+                                                    [01;31m[K^[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:237:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before '[01m[K)[m[K' token
+   for(auto a: robotmodel->getJointModelGroupNames();[01;31m[K)[m[K{
+                                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2

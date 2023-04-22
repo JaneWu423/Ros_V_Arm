@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[KCS3891Context::path CS3891Context::rrt(const vertex&, const vertex&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:228:22:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type '[01m[Kconst vertex& {aka const std::vector<double>&}[m[K' from expression of type '[01m[KCS3891Context::Node*[m[K'
+     help_print(q_near[01;31m[K)[m[K;
+                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:9:6:[m[K [01;36m[Knote: [m[Kin passing argument 1 of '[01m[Kvoid help_print(const vertex&)[m[K'
+ void [01;36m[Khelp_print[m[K(const CS3891Context::vertex &q)
+      [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2

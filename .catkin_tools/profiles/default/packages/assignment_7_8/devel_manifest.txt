@@ -1,7 +1,0 @@
-assignment_7_8
-/home/ubuntu/finalProject/devel/.private/assignment_7_8/cmake.lock /home/ubuntu/finalProject/devel/./cmake.lock
-/home/ubuntu/finalProject/devel/.private/assignment_7_8/share/assignment_7_8/cmake/assignment_7_8Config.cmake /home/ubuntu/finalProject/devel/share/assignment_7_8/cmake/assignment_7_8Config.cmake
-/home/ubuntu/finalProject/devel/.private/assignment_7_8/share/assignment_7_8/cmake/assignment_7_8Config-version.cmake /home/ubuntu/finalProject/devel/share/assignment_7_8/cmake/assignment_7_8Config-version.cmake
-/home/ubuntu/finalProject/devel/.private/assignment_7_8/lib/libassignment_7_8_context.so /home/ubuntu/finalProject/devel/lib/libassignment_7_8_context.so
-/home/ubuntu/finalProject/devel/.private/assignment_7_8/lib/libassignment_7_8_plugin.so /home/ubuntu/finalProject/devel/lib/libassignment_7_8_plugin.so
-/home/ubuntu/finalProject/devel/.private/assignment_7_8/lib/pkgconfig/assignment_7_8.pc /home/ubuntu/finalProject/devel/lib/pkgconfig/assignment_7_8.pc

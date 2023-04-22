@@ -1,4 +1,0 @@
-In file included from [01m[K/home/ubuntu/finalProject/src/assignment_7_8/src/assignment_7_8_plugin.cpp:11:0[m[K:
-[01m[K/opt/ros/melodic/include/class_loader/class_loader.h:36:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <class_loader/class_loader.h> is deprecated, include <class_loader/class_loader.hpp> instead. [[01;35m[K-Wcpp[m[K]
- #[01;35m[Kwarning[m[K Including header <class_loader/class_loader.h> is deprecated, \
-  [01;35m[K^~~~~~~[m[K

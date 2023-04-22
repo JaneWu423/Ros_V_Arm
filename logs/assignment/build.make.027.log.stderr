@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[Kvirtual bool CS3891Context::solve(planning_interface::MotionPlanResponse&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:272:16:[m[K [01;31m[Kerror: [m[K'[01m[KP[m[K' was not declared in this scope
+   for (int i = [01;31m[KP[m[K.size() - 1; i >= 1; i--)
+                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2

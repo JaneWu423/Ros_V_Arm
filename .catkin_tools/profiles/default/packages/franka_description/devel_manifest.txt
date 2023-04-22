@@ -1,0 +1,5 @@
+franka_description
+/home/ubuntu/finalProject/devel/.private/franka_description/cmake.lock /home/ubuntu/finalProject/devel/./cmake.lock
+/home/ubuntu/finalProject/devel/.private/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake /home/ubuntu/finalProject/devel/share/franka_description/cmake/franka_descriptionConfig.cmake
+/home/ubuntu/finalProject/devel/.private/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake /home/ubuntu/finalProject/devel/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+/home/ubuntu/finalProject/devel/.private/franka_description/lib/pkgconfig/franka_description.pc /home/ubuntu/finalProject/devel/lib/pkgconfig/franka_description.pc

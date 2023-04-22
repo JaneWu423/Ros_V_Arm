@@ -1,0 +1,14 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[Kvirtual bool CS3891Context::solve(planning_interface::MotionPlanResponse&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:243:11:[m[K [01;31m[Kerror: [m[K'[01m[Kmoveit::planning_interface[m[K' has not been declared
+   moveit::[01;31m[Kplanning_interface[m[K::MoveGroupInterface move_group("left_arm");
+           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:246:60:[m[K [01;31m[Kerror: [m[K'[01m[Kmove_group[m[K' was not declared in this scope
+   const moveit::core::JointModelGroup *joint_model_group = [01;31m[Kmove_group[m[K.getCurrentState()->getJointModelGroup("left_arm");
+                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:246:60:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kgetgroups[m[K'
+   const moveit::core::JointModelGroup *joint_model_group = [01;36m[Kmove_group[m[K.getCurrentState()->getJointModelGroup("left_arm");
+                                                            [01;36m[K^~~~~~~~~~[m[K
+                                                            [32m[Kgetgroups[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2
