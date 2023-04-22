@@ -61,10 +61,10 @@ controller_list:
     default: True
     type: FollowJointTrajectory
     joints:
-      left_arm_finger_joint1
+      []
   - name: right_hand_controller
     action_ns: follow_joint_trajectory
     default: True
     type: FollowJointTrajectory
     joints:
-      right_arm_finger_joint1
+      []

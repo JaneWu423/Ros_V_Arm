@@ -41,6 +41,26 @@
         <link name="right_arm_leftfinger" />
         <link name="right_arm_rightfinger" />
     </group>
+    <group name="both_arms">
+        <joint name="left_arm_joint_base" />
+        <joint name="left_arm_joint1" />
+        <joint name="left_arm_joint2" />
+        <joint name="left_arm_joint3" />
+        <joint name="left_arm_joint4" />
+        <joint name="left_arm_joint5" />
+        <joint name="left_arm_joint6" />
+        <joint name="left_arm_joint7" />
+        <joint name="left_arm_joint8" />
+        <joint name="right_arm_joint_base" />
+        <joint name="right_arm_joint1" />
+        <joint name="right_arm_joint2" />
+        <joint name="right_arm_joint3" />
+        <joint name="right_arm_joint4" />
+        <joint name="right_arm_joint5" />
+        <joint name="right_arm_joint6" />
+        <joint name="right_arm_joint7" />
+        <joint name="right_arm_joint8" />
+    </group>
     <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
     <virtual_joint name="virtual_joint_left" type="fixed" parent_frame="world" child_link="left_arm_link0" />
     <virtual_joint name="virtual_joint_right" type="fixed" parent_frame="world" child_link="right_arm_link0" />

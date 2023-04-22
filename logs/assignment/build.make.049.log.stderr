@@ -1,0 +1,92 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[Kvirtual bool CS3891Context::solve(planning_interface::MotionPlanResponse&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:263:94:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K}[m[K' before numeric constant
+                                   -0.651545, 0.541939, 0.855211 -0.523599 -0.261799 -1.77891 [01;31m[K0.750492[m[K 1.09956 -1.55334, 1.39066e-309, 1.82812};
+                                                                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:263:94:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K,[m[K' or '[01m[K;[m[K' before numeric constant
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:265:3:[m[K [01;31m[Kerror: [m[K'[01m[Kq_goal[m[K' does not name a type; did you mean '[01m[K__fmal[m[K'?
+   [01;31m[Kq_goal[m[K = q_goal_fixed;
+   [01;31m[K^~~~~~[m[K
+   [32m[K__fmal[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:266:8:[m[K [01;31m[Kerror: [m[K'[01m[Kcout[m[K' in namespace '[01m[Kstd[m[K' does not name a type
+   std::[01;31m[Kcout[m[K << "size of joints: " << q_init.size() << std::endl;
+        [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/time.h:54:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.h:1[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K'[01m[Kstd::cout[m[K' declared here
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:267:8:[m[K [01;31m[Kerror: [m[K'[01m[Kcout[m[K' in namespace '[01m[Kstd[m[K' does not name a type
+   std::[01;31m[Kcout[m[K << "group name is: " << getGroupName() << std::endl;
+        [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/time.h:54:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.h:1[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K'[01m[Kstd::cout[m[K' declared here
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:274:3:[m[K [01;31m[Kerror: [m[K'[01m[Kpath[m[K' does not name a type; did you mean '[01m[Kpowh[m[K'?
+   [01;31m[Kpath[m[K P = rrt(q_init, q_goal);
+   [01;31m[K^~~~[m[K
+   [32m[Kpowh[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:277:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[Kfor[m[K'
+   [01;31m[Kfor[m[K (vertex a : P)
+   [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:282:8:[m[K [01;31m[Kerror: [m[K'[01m[Kcout[m[K' in namespace '[01m[Kstd[m[K' does not name a type
+   std::[01;31m[Kcout[m[K << "finished path " << std::endl;
+        [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/time.h:54:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.h:1[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:1[m[K:
+[01m[K/usr/include/c++/7/iostream:61:18:[m[K [01;36m[Knote: [m[K'[01m[Kstd::cout[m[K' declared here
+   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+                  [01;36m[K^~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:289:39:[m[K [01;31m[Kerror: [m[K'[01m[Krobotmodel[m[K' was not declared in this scope
+   moveit::core::RobotState robotstate([01;31m[Krobotmodel[m[K);
+                                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:289:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Krobot_model[m[K'
+   moveit::core::RobotState robotstate([01;36m[Krobotmodel[m[K);
+                                       [01;36m[K^~~~~~~~~~[m[K
+                                       [32m[Krobot_model[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:295:3:[m[K [01;31m[Kerror: [m[K'[01m[Kvertex[m[K' does not name a type; did you mean '[01m[Kgettext[m[K'?
+   [01;31m[Kvertex[m[K q_left(q_init.begin(), q_init.begin() + 7);
+   [01;31m[K^~~~~~[m[K
+   [32m[Kgettext[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:296:3:[m[K [01;31m[Kerror: [m[K'[01m[Krobotstate[m[K' does not name a type
+   [01;31m[Krobotstate[m[K.setJointGroupPositions("left_arm", q_left);
+   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:301:3:[m[K [01;31m[Kerror: [m[K'[01m[Kvertex[m[K' does not name a type; did you mean '[01m[Kgettext[m[K'?
+   [01;31m[Kvertex[m[K q_right(q_init.begin() + 9, q_init.begin() + 16);
+   [01;31m[K^~~~~~[m[K
+   [32m[Kgettext[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:302:3:[m[K [01;31m[Kerror: [m[K'[01m[Krobotstate[m[K' does not name a type
+   [01;31m[Krobotstate[m[K.setJointGroupPositions("right_arm", q_right);
+   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:312:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[Kfor[m[K'
+   [01;31m[Kfor[m[K (int i = P.size() - 1; i >= 1; i--)
+   [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:312:30:[m[K [01;31m[Kerror: [m[K'[01m[Ki[m[K' does not name a type
+   for (int i = P.size() - 1; [01;31m[Ki[m[K >= 1; i--)
+                              [01;31m[K^[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:312:38:[m[K [01;31m[Kerror: [m[K'[01m[Ki[m[K' does not name a type
+   for (int i = P.size() - 1; i >= 1; [01;31m[Ki[m[K--)
+                                      [01;31m[K^[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:343:3:[m[K [01;31m[Kerror: [m[K'[01m[Kres[m[K' does not name a type
+   [01;31m[Kres[m[K.planning_time_ = duration.toSec();
+   [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:344:3:[m[K [01;31m[Kerror: [m[K'[01m[Kres[m[K' does not name a type
+   [01;31m[Kres[m[K.error_code_.val = moveit_msgs::MoveItErrorCodes::SUCCESS;
+   [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:346:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before '[01m[Kreturn[m[K'
+   [01;31m[Kreturn[m[K true;
+   [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:347:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before '[01m[K}[m[K' token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2
