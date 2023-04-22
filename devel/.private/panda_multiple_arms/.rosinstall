@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu/finalProject/devel/.private/panda_multiple_arms/setup.sh

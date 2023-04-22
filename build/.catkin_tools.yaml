@@ -1,0 +1,6 @@
+devel_space: /home/ubuntu/finalProject/devel
+install: false
+install_space: /home/ubuntu/finalProject/install
+profile: default
+source_space: /home/ubuntu/finalProject/src
+workspace: /home/ubuntu/finalProject

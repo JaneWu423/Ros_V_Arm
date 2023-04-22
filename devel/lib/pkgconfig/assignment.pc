@@ -1,0 +1,1 @@
+/home/ubuntu/finalProject/devel/.private/assignment/lib/pkgconfig/assignment.pc

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target assignment_7_8_context[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/assignment_7_8_context.dir/src/assignment_7_8_context.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/ubuntu/finalProject/devel/.private/assignment_7_8/lib/libassignment_7_8_context.so[0m
+[ 50%] Built target assignment_7_8_context
+[35m[1mScanning dependencies of target assignment_7_8_plugin[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/assignment_7_8_plugin.dir/src/assignment_7_8_plugin.cpp.o[0m
+In file included from [01m[K/home/ubuntu/finalProject/src/assignment_7_8/src/assignment_7_8_plugin.cpp:11:0[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/class_loader.h:36:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <class_loader/class_loader.h> is deprecated, include <class_loader/class_loader.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <class_loader/class_loader.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library /home/ubuntu/finalProject/devel/.private/assignment_7_8/lib/libassignment_7_8_plugin.so[0m
+[100%] Built target assignment_7_8_plugin

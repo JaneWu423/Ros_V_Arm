@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/finalProject/devel/.private/assignment
+
+Name: assignment
+Description: Description of assignment
+Version: 0.2.0
+Cflags: 
+Libs: -L${prefix}/lib -lassignment_context -lassignment_plugin
+Requires: 
