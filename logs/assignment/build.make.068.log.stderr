@@ -1,0 +1,88 @@
+In file included from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:11:0[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/class_loader.h:36:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <class_loader/class_loader.h> is deprecated, include <class_loader/class_loader.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <class_loader/class_loader.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:[m[K In member function '[01m[Kvirtual planning_interface::PlanningContextPtr CS3891Planner::getPlanningContext(const PlanningSceneConstPtr&, const MotionPlanRequest&, moveit_msgs::MoveItErrorCodes&) const[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:82:67:[m[K [01;31m[Kerror: [m[K'[01m[KconstructGoalConstraintsFromPoint[m[K' is not a member of '[01m[Kkinematic_constraints[m[K'
+ moveit_msgs::Constraints goal_constraint = kinematic_constraints::[01;31m[KconstructGoalConstraintsFromPoint[m[K(desired_pose, 0.01);
+                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:94:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to '[01m[Kmoveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*&, geometry_msgs::PoseStamped&, const double&, const double&)[m[K'
+ bool success = goal_state.setFromIK(joint_model_group, desired_pose, timeout, IK_tolerance[01;31m[K)[m[K;
+                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/moveit/robot_trajectory/robot_trajectory.h:41:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/moveit/planning_interface/planning_response.h:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/moveit/planning_interface/planning_interface.h:42[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.h:2[m[K,
+                 from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:3[m[K:
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1009:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::Pose& pose, double timeout = 0.0,
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1009:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Pose& {aka const geometry_msgs::Pose_<std::allocator<void> >&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1013:3:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::Pose& pose, unsigned int /*attempts*/,
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1013:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Pose& {aka const geometry_msgs::Pose_<std::allocator<void> >&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1027:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, const string&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::Pose& pose, const std::string& tip,
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1027:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Pose& {aka const geometry_msgs::Pose_<std::allocator<void> >&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1031:3:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Pose&, const string&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const geometry_msgs::Pose& pose, const std::string& tip,
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1031:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Pose& {aka const geometry_msgs::Pose_<std::allocator<void> >&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1045:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, double timeout = 0.0,
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1045:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Isometry3d& {aka const Eigen::Transform<double, 3, 1>&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1049:3:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, unsigned int /*attempts*/,
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1049:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Isometry3d& {aka const Eigen::Transform<double, 3, 1>&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1062:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1062:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Isometry3d& {aka const Eigen::Transform<double, 3, 1>&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1066:3:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1066:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Isometry3d& {aka const Eigen::Transform<double, 3, 1>&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1082:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, const std::vector<double>&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1082:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst Isometry3d& {aka const Eigen::Transform<double, 3, 1>&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1087:3:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const Isometry3d&, const string&, const std::vector<double>&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const Eigen::Isometry3d& pose, const std::string& tip,
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1087:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 4 provided
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1104:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1104:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst vector_Isometry3d& {aka const std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1109:3:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1109:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst vector_Isometry3d& {aka const std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1127:8:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::vector<double> >&, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   bool [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1127:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from '[01m[Kgeometry_msgs::PoseStamped {aka geometry_msgs::PoseStamped_<std::allocator<void> >}[m[K' to '[01m[Kconst vector_Isometry3d& {aka const std::vector<Eigen::Transform<double, 3, 1>, Eigen::aligned_allocator<Eigen::Transform<double, 3, 1> > >&}[m[K'
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1132:3:[m[K [01;36m[Knote: [m[Kcandidate: bool moveit::core::RobotState::setFromIK(const moveit::core::JointModelGroup*, const vector_Isometry3d&, const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::vector<double> >&, unsigned int, double, const GroupStateValidityCallbackFn&, const kinematics::KinematicsQueryOptions&)
+   [01;36m[KsetFromIK[m[K(const JointModelGroup* group, const EigenSTL::vector_Isometry3d& poses,
+   [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/moveit/robot_state/robot_state.h:1132:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 4 provided
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:97:5:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning '[01m[Kplanning_interface::PlanningContextPtr {aka std::shared_ptr<planning_interface::PlanningContext>}[m[K' [[01;31m[K-fpermissive[m[K]
+     [01;31m[Kreturn[m[K;
+     [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:101:50:[m[K [01;31m[Kerror: [m[K'[01m[Kplanner_instance[m[K' was not declared in this scope
+ planning_interface::PlanningContextPtr context = [01;31m[Kplanner_instance[m[K->getPlanningContext(planning_scene, req);
+                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:101:50:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[KPlannerManager[m[K'
+ planning_interface::PlanningContextPtr context = [01;36m[Kplanner_instance[m[K->getPlanningContext(planning_scene, req);
+                                                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+                                                  [32m[KPlannerManager[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:102:10:[m[K [01;31m[Kerror: [m[K'[01m[Kusing element_type = class planning_interface::PlanningContext {aka class planning_interface::PlanningContext}[m[K' has no member named '[01m[KsetGoalState[m[K'
+ context->[01;31m[KsetGoalState[m[K(goal_state);
+          [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_plugin.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,6 +1,0 @@
-[35m[1mScanning dependencies of target assignment_context[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o[0m
-[ 50%] [32m[1mLinking CXX shared library /home/ubuntu/finalProject/devel/.private/assignment/lib/libassignment_context.so[0m
-[ 50%] Built target assignment_context
-[ 75%] [32m[1mLinking CXX shared library /home/ubuntu/finalProject/devel/.private/assignment/lib/libassignment_plugin.so[0m
-[100%] Built target assignment_plugin

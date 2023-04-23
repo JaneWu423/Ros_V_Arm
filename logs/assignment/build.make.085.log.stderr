@@ -1,0 +1,11 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[KCS3891Context::vertex CS3891Context::random_sample(const vertex&) const[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:101:37:[m[K [01;31m[Kerror: [m[K'[01m[Krand_num[m[K' was not declared in this scope
+           double radian_1 = -M_PI + [01;31m[Krand_num[m[K * 2 * M_PI;
+                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:101:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Krand_num_2[m[K'
+           double radian_1 = -M_PI + [01;36m[Krand_num[m[K * 2 * M_PI;
+                                     [01;36m[K^~~~~~~~[m[K
+                                     [32m[Krand_num_2[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2

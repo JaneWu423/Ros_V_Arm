@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target assignment_context[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o[0m
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[Kvirtual bool CS3891Context::solve(planning_interface::MotionPlanResponse&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:271:17:[m[K [01;31m[Kerror: [m[K'[01m[Kq_goal[m[K' was not declared in this scope
+   vertex q_init([01;31m[Kq_goal[m[K.size(), 0.0);
+                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:271:17:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[K__fmal[m[K'
+   vertex q_init([01;36m[Kq_goal[m[K.size(), 0.0);
+                 [01;36m[K^~~~~~[m[K
+                 [32m[K__fmal[m[K
+CMakeFiles/assignment_context.dir/build.make:62: recipe for target 'CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o' failed
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+CMakeFiles/Makefile2:2216: recipe for target 'CMakeFiles/assignment_context.dir/all' failed
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

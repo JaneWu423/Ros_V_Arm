@@ -1,0 +1,19 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:[m[K In member function '[01m[Kvirtual bool CS3891Planner::initialize(const RobotModelConstPtr&, const string&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:47:5:[m[K [01;31m[Kerror: [m[K'[01m[Kgroup_name_sub[m[K' was not declared in this scope
+     [01;31m[Kgroup_name_sub[m[K = nh.subscribe("/move_group/set_planner_id", 1, &CS3891Planner::group_name_callback, this);
+     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:47:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kgroup_name[m[K'
+     [01;36m[Kgroup_name_sub[m[K = nh.subscribe("/move_group/set_planner_id", 1, &CS3891Planner::group_name_callback, this);
+     [01;36m[K^~~~~~~~~~~~~~[m[K
+     [32m[Kgroup_name[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:[m[K In member function '[01m[Kvoid CS3891Planner::group_name_callback(const StringConstPtr&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:56:7:[m[K [01;31m[Kerror: [m[K'[01m[Kgroup_name[m[K' was not declared in this scope
+       [01;31m[Kgroup_name[m[K = msg->data;
+       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:56:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kgroup_member[m[K'
+       [01;36m[Kgroup_name[m[K = msg->data;
+       [01;36m[K^~~~~~~~~~[m[K
+       [32m[Kgroup_member[m[K
+make[2]: *** [CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_plugin.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:[m[K In member function '[01m[Kvirtual bool CS3891Planner::initialize(const RobotModelConstPtr&, const string&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:47:74:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say '[01m[K&CS3891Planner::group_name_callback[m[K' [[01;31m[K-fpermissive[m[K]
+     group_name_sub = nh.subscribe("/move_group/motion_plan_request", 1, &[01;31m[Kgroup_name_callback[m[K, this);
+                                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_plugin.dir/all] Error 2
+make: *** [all] Error 2

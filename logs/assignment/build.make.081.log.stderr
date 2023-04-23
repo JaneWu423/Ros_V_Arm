@@ -1,0 +1,10 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[KCS3891Context::vertex CS3891Context::random_sample(const vertex&) const[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:80:23:[m[K [01;31m[Kerror: [m[K'[01m[Kconst string {aka const class std::__cxx11::basic_string<char>}[m[K' has no member named '[01m[Kequals[m[K'
+     if(getGroupName().[01;31m[Kequals[m[K("left_arm")){
+                       [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:88:29:[m[K [01;31m[Kerror: [m[K'[01m[Kconst string {aka const class std::__cxx11::basic_string<char>}[m[K' has no member named '[01m[Kequals[m[K'
+     }else if(getGroupName().[01;31m[Kequals[m[K("right_arm")){
+                             [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2

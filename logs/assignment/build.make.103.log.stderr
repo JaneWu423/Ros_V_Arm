@@ -1,0 +1,6 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:54:7:[m[K [01;31m[Kerror: [m[Kextra qualification '[01m[KCS3891Planner::[m[K' on member '[01m[Kgroup_name_callback[m[K' [[01;31m[K-fpermissive[m[K]
+  void [01;31m[KCS3891Planner[m[K::group_name_callback(const moveit_msgs::MotionPlanRequest::ConstPtr& msg)
+       [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_plugin.dir/all] Error 2
+make: *** [all] Error 2

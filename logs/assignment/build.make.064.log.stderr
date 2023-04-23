@@ -1,0 +1,15 @@
+In file included from [01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:11:0[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/class_loader.h:36:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <class_loader/class_loader.h> is deprecated, include <class_loader/class_loader.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <class_loader/class_loader.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:[m[K In member function '[01m[Kvirtual planning_interface::PlanningContextPtr CS3891Planner::getPlanningContext(const PlanningSceneConstPtr&, const MotionPlanRequest&, moveit_msgs::MoveItErrorCodes&) const[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:83:71:[m[K [01;31m[Kerror: [m[K'[01m[KconstructGoalConstraints[m[K' is not a member of '[01m[Kkinematic_constraints[m[K'
+     moveit_msgs::Constraints goal_constraint = kinematic_constraints::[01;31m[KconstructGoalConstraints[m[K(
+                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:83:71:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[KPositionConstraint[m[K'
+     moveit_msgs::Constraints goal_constraint = kinematic_constraints::[01;36m[KconstructGoalConstraints[m[K(
+                                                                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                                                       [32m[KPositionConstraint[m[K
+make[2]: *** [CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_plugin.dir/all] Error 2
+make: *** [all] Error 2

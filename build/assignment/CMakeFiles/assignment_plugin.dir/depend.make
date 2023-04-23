@@ -3,8 +3,7 @@
 
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /home/ubuntu/finalProject/src/assignment/src/assignment_context.h
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp
-CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/class_loader/./class_loader.hpp
-CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/class_loader/class_loader.h
+CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/class_loader/class_loader.hpp
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/class_loader/class_loader_core.hpp
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/class_loader/exceptions.hpp
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/class_loader/meta_object.hpp
@@ -165,6 +164,7 @@ CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/i
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/srdfdom/model.h
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/std_msgs/ColorRGBA.h
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/std_msgs/Header.h
+CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/trajectory_msgs/JointTrajectory.h
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/trajectory_msgs/JointTrajectoryPoint.h
 CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o: /opt/ros/melodic/include/trajectory_msgs/MultiDOFJointTrajectory.h

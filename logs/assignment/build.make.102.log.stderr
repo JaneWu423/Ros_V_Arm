@@ -1,0 +1,21 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:54:7:[m[K [01;31m[Kerror: [m[Kextra qualification '[01m[KCS3891Planner::[m[K' on member '[01m[Kgroup_name_callback[m[K' [[01;31m[K-fpermissive[m[K]
+  void [01;31m[KCS3891Planner[m[K::group_name_callback(const moveit_msgs::MotionPlanRequest::ConstPtr& msg)
+       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:[m[K In member function '[01m[Kvoid CS3891Planner::group_name_callback(const ConstPtr&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:60:37:[m[K [01;31m[Kerror: [m[K'[01m[Kmodel_[m[K' was not declared in this scope
+     context.reset(new CS3891Context([01;31m[Kmodel_[m[K, "CS3891", group_name, nh_));
+                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:60:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Kmode_t[m[K'
+     context.reset(new CS3891Context([01;36m[Kmodel_[m[K, "CS3891", group_name, nh_));
+                                     [01;36m[K^~~~~~[m[K
+                                     [32m[Kmode_t[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:60:67:[m[K [01;31m[Kerror: [m[K'[01m[Knh_[m[K' was not declared in this scope
+     context.reset(new CS3891Context(model_, "CS3891", group_name, [01;31m[Knh_[m[K));
+                                                                   [01;31m[K^~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_plugin.cpp:60:67:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[Knh[m[K'
+     context.reset(new CS3891Context(model_, "CS3891", group_name, [01;36m[Knh_[m[K));
+                                                                   [01;36m[K^~~[m[K
+                                                                   [32m[Knh[m[K
+make[2]: *** [CMakeFiles/assignment_plugin.dir/src/assignment_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_plugin.dir/all] Error 2
+make: *** [all] Error 2
