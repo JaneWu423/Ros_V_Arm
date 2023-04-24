@@ -1,0 +1,6 @@
+<library path="libassignment_plugin">
+  <class name="cs3891/lw" type="CS3891Planner" base_class_type="planning_interface::PlannerManager">
+    <description>
+    </description>
+  </class>
+</library>
