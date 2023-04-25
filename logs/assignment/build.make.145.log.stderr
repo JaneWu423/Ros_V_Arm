@@ -1,0 +1,12 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[Kbool CS3891Context::is_colliding(const vertex&) const[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:38:16:[m[K [01;31m[Kerror: [m[K'[01m[Kclass moveit::core::RobotState[m[K' has no member named '[01m[KsetJoinGroupPositions[m[K'; did you mean '[01m[KsetJointGroupPositions[m[K'?
+     robotstate.[01;31m[KsetJoinGroupPositions[m[K("left_hand", q_hand);
+                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+                [32m[KsetJointGroupPositions[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:39:16:[m[K [01;31m[Kerror: [m[K'[01m[Kclass moveit::core::RobotState[m[K' has no member named '[01m[KsetJoinGroupPositions[m[K'; did you mean '[01m[KsetJointGroupPositions[m[K'?
+     robotstate.[01;31m[KsetJoinGroupPositions[m[K("right_hand", q_hand);
+                [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+                [32m[KsetJointGroupPositions[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2

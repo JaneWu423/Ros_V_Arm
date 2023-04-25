@@ -138,7 +138,7 @@ public:
   robot_model::RobotModelConstPtr robotmodel;
 
   // goal bias
-  double GOAL_BIAS = 0.1;
+  double GOAL_BIAS = 0.05;
    // step size
   double STEP_SIZE = 0.1;
 
@@ -149,6 +149,6 @@ public:
    int k = 18;
 
   // episilon for testing equality...
-  double epi = 1e-3;
+  double epi = 1e-4;
 
 };

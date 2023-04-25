@@ -1,0 +1,16 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:240:16:[m[K [01;31m[Kerror: [m[Kstray '[01m[K\343[m[K' in program
+     if (r_goal [01;31m[Kã[m[K€‹ epi)
+                [01;31m[K^[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:240:17:[m[K [01;31m[Kerror: [m[Kstray '[01m[K\200[m[K' in program
+     if (r_goal ã[01;31m[K€[m[K‹ epi)
+                 [01;31m[K^[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:240:18:[m[K [01;31m[Kerror: [m[Kstray '[01m[K\213[m[K' in program
+     if (r_goal ã€[01;31m[K‹[m[K epi)
+                  [01;31m[K^[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[KCS3891Context::path CS3891Context::rrt(const vertex&, const vertex&)[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:240:20:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K)[m[K' before '[01m[Kepi[m[K'
+     if (r_goal ã€‹ [01;31m[Kepi[m[K)
+                    [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2

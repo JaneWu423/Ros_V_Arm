@@ -36,7 +36,7 @@ bool CS3891Context::is_colliding(const vertex &q) const
     robotstate.setJointGroupPositions("both_arms", q_both);
   }
 
-  if (getPlanningScene()->isStateColliding(robotstate, getGroupName(), false))
+  if (getPlanningScene()->isStateColliding(robotstate, "", false))
   {
     return true;
   }
@@ -139,13 +139,6 @@ double CS3891Context::distance(const CS3891Context::vertex &q1, const CS3891Cont
     }
 
     return 1-cosine_dist;
-
-//   double distance = 0.0;
-//   for (std::size_t i = 0; i < q1.size(); i++)
-//   {
-//     distance += std::pow(q1[i] - q2[i], 2);
-//   }
-//   return std::sqrt(distance);
 }
 
 // TODO
@@ -224,6 +217,7 @@ CS3891Context::path CS3891Context::rrt(const CS3891Context::vertex &q_init,
     // distance between q_rand and q_goal
     double r_goal = distance(q_rand, q_goal);
 
+
     while (!reached && is_subpath_collision_free(q_near, q_rand, STEP_SIZE))
     {
 
@@ -254,8 +248,9 @@ CS3891Context::path CS3891Context::rrt(const CS3891Context::vertex &q_init,
       }
       
     }
-  }
 
+
+  }
   // TODO implement RRT algorithm and return the path (an ordered sequence of configurations).
 }
 
@@ -285,7 +280,7 @@ bool CS3891Context::solve(planning_interface::MotionPlanResponse &res)
         q_goal.push_back(request_.goal_constraints[0].joint_constraints[i].position);
         q_init.push_back(request_.start_state.joint_state.position[i]);
       }
-      // std::cout << "goal 0" << i << " " << request_.goal_constraints[0].joint_constraints[i].position << std::endl;
+
     }
   }
   else
@@ -297,7 +292,7 @@ bool CS3891Context::solve(planning_interface::MotionPlanResponse &res)
     }
   }
   
-  vertex q_goal_t = {-0.488692, 0.698132, -0.279253, -1.58825, -0.837758, 1.02974, -0.733038, 0, 0, 0.436332, 0.610865, 0.261799, -1.72788, 0.785398, 1.01229, 0.663225, 0, 0};
+  // vertex q_goal_t = {-0.488692, 0.698132, -0.279253, -1.58825, -0.837758, 1.02974, -0.733038, 0, 0, 0.436332, 0.610865, 0.261799, -1.72788, 0.785398, 1.01229, 0.663225, 0, 0};
   // hardcode V shape config
   vertex q_goal_b = {1.97413, -0.733038, -2.89725, -2.00713, -1.09956, 1.13446, -0.279253, 0, 0, 1.19116, 0.750492, -0.226893, -2.0944, 1.18682, 1.30899, 0.20944, 0, 0};
   // starting pose

@@ -1,0 +1,11 @@
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:[m[K In member function '[01m[Kbool CS3891Context::is_colliding(const vertex&) const[m[K':
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:39:50:[m[K [01;31m[Kerror: [m[K'[01m[Kq_hand[m[K' was not declared in this scope
+   robotstate.setJointGroupPositions("left_hand", [01;31m[Kq_hand[m[K);
+                                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/finalProject/src/assignment/src/assignment_context.cpp:39:50:[m[K [01;36m[Knote: [m[Ksuggested alternative: '[01m[K__nanl[m[K'
+   robotstate.setJointGroupPositions("left_hand", [01;36m[Kq_hand[m[K);
+                                                  [01;36m[K^~~~~~[m[K
+                                                  [32m[K__nanl[m[K
+make[2]: *** [CMakeFiles/assignment_context.dir/src/assignment_context.cpp.o] Error 1
+make[1]: *** [CMakeFiles/assignment_context.dir/all] Error 2
+make: *** [all] Error 2
